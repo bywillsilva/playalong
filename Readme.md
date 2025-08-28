@@ -1,0 +1,1 @@
+pyinstaller --onedir --noconsole --hidden-import=torch --hidden-import=torchaudio --hidden-import=demucs --hidden-import=numpy --hidden-import=numpy.core._multiarray_umath --add-data "venv\Lib\site-packages\demucs\remote;demucs/remote" --icon=icon.ico app.py
