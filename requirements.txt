@@ -1,5 +1,13 @@
-yt-dlp
-torch
-demucs
-pyinstaller
-pyinstaller-hooks-contrib
+# Download do YouTube
+yt_dlp>=2023.12.30
+
+# Separação de áudio (Demucs + Torch)
+torch>=2.0.0
+torchaudio>=2.0.0
+demucs>=4.0.0
+diffq>=0.2.4
+cython>=0.29.0
+
+# Utilitários
+numpy>=1.23.0
+scipy>=1.10.0
